@@ -11,6 +11,11 @@ interface PostCardProps {
 }
 
 export function PostCard({ post, isLast }: PostCardProps) {
+  const postContentProps = {
+    content: post.content,
+    className: "text-base md:text-lg text-foreground mt-4",
+  };
+
   return (
     <article className="group relative transition-all px-4 md:px-6 lg:px-8 py-6">
       {/* Post Date */}
@@ -20,15 +25,12 @@ export function PostCard({ post, isLast }: PostCardProps) {
       />
 
       {/* Title */}
-      <h2 className="text-xl pt-4 pb-2 md:text-3xl font-playfair  md:mt-6 text-primary group-hover:text-primary/90 transition-colors">
+      <h2 className="text-xl pt-4 pb-2 md:text-3xl font-playfair md:mt-6 text-primary group-hover:text-primary/90 transition-colors">
         {post.title}
       </h2>
 
       {/* Content */}
-      <PostContent
-        content={post.content}
-        className="text-base md:text-lg text-foreground mt-4"
-      />
+      <PostContent {...postContentProps} />
 
       {/* Image */}
       {post.image && (
