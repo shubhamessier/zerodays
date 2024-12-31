@@ -19,7 +19,7 @@ export function PostCard({ post, isLast }: PostCardProps) {
   return (
     <article
       id={`post-${post.date}`}
-      className="group relative transition-all px-4 md:px-6 lg:px-8 py-5"
+      className="group relative transition-all px-2 md:px-6 lg:px-8 py-5"
     >
       {/* Post Date */}
       <PostDate
@@ -28,7 +28,7 @@ export function PostCard({ post, isLast }: PostCardProps) {
       />
 
       {/* Title */}
-      <h2 className="text-xl pt-4 pb-3 md:text-3xl font-playfair md:mt-6 text-primary group-hover:text-primary/90 transition-colors">
+      <h2 className="text-xl  pb-6 md:text-3xl font-playfair md:mt-6 text-primary group-hover:text-primary/90 transition-colors">
         {post.title}
       </h2>
 
