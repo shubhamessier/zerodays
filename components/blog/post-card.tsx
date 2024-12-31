@@ -2,8 +2,8 @@
 
 import { PostDate } from "./post-date";
 import { PostContent } from "./post-content";
-import { Separator } from "@/components/ui/separator";
 import { BlogPost } from "@/lib/types";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 interface PostCardProps {
   post: BlogPost;
@@ -17,7 +17,10 @@ export function PostCard({ post, isLast }: PostCardProps) {
   };
 
   return (
-    <article className="group relative transition-all px-4 md:px-6 lg:px-8 py-6">
+    <article
+      id={`post-${post.date}`}
+      className="group relative transition-all px-4 md:px-6 lg:px-8 py-5"
+    >
       {/* Post Date */}
       <PostDate
         date={post.date}
@@ -25,7 +28,7 @@ export function PostCard({ post, isLast }: PostCardProps) {
       />
 
       {/* Title */}
-      <h2 className="text-xl pt-4 pb-2 md:text-3xl font-playfair md:mt-6 text-primary group-hover:text-primary/90 transition-colors">
+      <h2 className="text-xl pt-4 pb-3 md:text-3xl font-playfair md:mt-6 text-primary group-hover:text-primary/90 transition-colors">
         {post.title}
       </h2>
 
@@ -43,8 +46,38 @@ export function PostCard({ post, isLast }: PostCardProps) {
         </div>
       )}
 
-      {/* Separator */}
-      {!isLast && <Separator className="mt-12 md:mt-16 mx-auto max-w-[80%]" />}
+      {/* Elegant Separator */}
+      {!isLast && (
+        <div className="mt-12 md:mt-16 mx-auto flex justify-center gap-4">
+          <ScrollLink
+            to={`post-${post.date}`}
+            smooth={true}
+            duration={500}
+            offset={-100}
+            className="cursor-pointer"
+          >
+            <div className="bg-primary w-2 h-2 rounded-full shadow-md hover:scale-125 transition-transform"></div>
+          </ScrollLink>
+          <ScrollLink
+            to={`post-${post.date}`}
+            smooth={true}
+            duration={500}
+            offset={-100}
+            className="cursor-pointer"
+          >
+            <div className="bg-primary w-2 h-2 rounded-full shadow-md hover:scale-125 transition-transform"></div>
+          </ScrollLink>
+          <ScrollLink
+            to={`post-${post.date}`}
+            smooth={true}
+            duration={500}
+            offset={-100}
+            className="cursor-pointer"
+          >
+            <div className="bg-primary w-2 h-2 rounded-full shadow-md hover:scale-125 transition-transform"></div>
+          </ScrollLink>
+        </div>
+      )}
     </article>
   );
 }
