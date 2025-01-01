@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-4 md:py-5 max-w-screen-lg md:mt-15">
-        <header className="pt-3 sm:pt-7 mb-6 md:mb-16 text-center ">
+        <header className="pt-4 sm:pt-7 mb-6 md:mb-16 text-center ">
           <h2 className="text-4xl sm:text-4xl pt-5 md:text-5xl font-LibreBaskerville lg:mt-0 mb-4 tracking-tight">
             The Zero Days of Life
           </h2>
