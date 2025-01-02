@@ -23,8 +23,8 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-4 md:py-5 max-w-screen-lg md:mt-15">
-        <header className="pt-4 sm:pt-7 mb-6 md:mb-16 text-center ">
-          <h2 className="text-4xl sm:text-4xl pt-5 md:text-5xl font-LibreBaskerville lg:mt-0 mb-4 tracking-tight">
+        <header className="pt-3 sm:pt-7 mb-6 md:mb-16 text-center ">
+          <h2 className="text-4xl sm:text-4xl pt-5 md:text-5xl font-LibreBaskerville lg:mt-0 mb-3 tracking-tight">
             The Zero Days of Life
           </h2>
           <a
@@ -39,7 +39,7 @@ export default function Home() {
 
         <ScrollArea className="h-[calc(92vh-11rem)] md:h-[calc(100vh-12rem)]">
           <motion.div
-            className="space-y-12 md:space-y-16"
+            className="space-y-12  md:space-y-16"
             initial={{ opacity: 0 }} // Initial opacity for the list of posts
             animate={{ opacity: 1 }} // Fade-in effect for the posts
             transition={{

@@ -29,11 +29,11 @@ export function PostCard({ post, isLast }: PostCardProps) {
 
       {/* Title */}
       <h2
-        className="text-2xl font-playfair text-primary transition-colors group-hover:text-primary/90 
+        className="text-xl font-playfair text-primary transition-colors group-hover:text-primary/90 
 pt-3 pb-3
-md:text-3xl md:pt-6 md:mt-6 
+md:text-xl md:pt-6 md:mt-6 
 lg:pt-[-2px] lg:pb-4 
-xl:text-3xl xl:-mt-2 xl:pb-4"
+xl:text-2xl xl:-mt-2 xl:pb-4"
       >
         {post.title}
       </h2>

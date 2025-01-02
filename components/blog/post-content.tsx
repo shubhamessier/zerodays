@@ -6,7 +6,7 @@ interface PostContentProps {
 
 export function PostContent({ content }: PostContentProps) {
   return (
-    <div className="space-y-6 prose prose-neutral dark:prose-invert max-w-none">
+    <div className="space-y-3 prose prose-neutral dark:prose-invert max-w-none">
       {content.map((paragraph, index) => (
         <p
           key={index}
