@@ -2,6 +2,17 @@ import { BlogPost } from "@/lib/types";
 
 export const posts: BlogPost[] = [
   {
+    date: "2025-01-012T18:12",
+    title: "Again, Again, Again",
+    content: [
+      "This is the first entry of the year 2025 and I want to make it count, I want it to be special in some ways but rigid in other ways. So I’ll divide this in two parts, the first one being the questions I have about what my future and what I’m doing to mould it, the later is more of my inner voice of what I deeply care about.",
+      "Side 1: Well so let me put all the variables upfront that I really care about for this year, the first one being my future in tech, all the work I’ll be doing this year, my phyisical health and continuity. I do like writing softwares and coding, this fascincates me more than ever, but sometimes I ask myself what really is my niche? And I don’t get a specific answer about it but I’m fine with that, to say the few I like open source, linux kernel, reinforcement learning and startups. I really like all of these things to my core. Having worked both at startups and companies,  I don’t have a favourite here, I like both of them. The paradox arises when I think about what I’ll choose having to make a decision between the two, I do like the stabality of working in a good company and that’s really necessary to follow my other pursuits. The internal demon in me always wants to work on something new and get my hands at building something and that’s where I think I’ll have to make concisious decisions soon. This is what really goes in my head 24*7.",
+      "I haven’t been very caring of my body since a lot of time and I don’t wanna make a drastic 10 hour self care routine, which is of no use to me. I don’t care much about it unless it gets in the way of my work and honestly I can’t really think much about what to do about it, I think I’ll find the answer to this along the way of my journey.",
+      "Continuity is the what I probably wonder the most about sometimes, it is the only thing that keeps making me feel alive everyday, I’ve realised that I’ve never grown much with motivation than I have being disciplined, yes it seems boring and it is for the initial phase, but that’s the time where I have to stay disciplined and keep continuing everyday. Earlier I used to fear hardwork and look upto it as something out of my reach, but it is infact showing up everyday and keeping my head up even in the toughest of time. One thing that once really pushed me away from being disciplined was guilt, guilt of not doing something itself propels it. I don’t wanna have that now in my life, no guilts now. I don’t have any new year resolution, all I have is to keep the continuum moving, to do it everyday, EVERY FUCKING DAY. I don’t have any words to express what I feel about it, it is what it is, “doing it everyday”. No matter what happens, what weather, what conditions, but this is all I care about.",
+    ],
+    image: "https://i.ibb.co/6nG0g6L/PXL-20240827-233229577.jpg",
+  },
+  {
     date: "2024-12-22T17:38",
     title: "The Optimisation Problem",
     content: [
