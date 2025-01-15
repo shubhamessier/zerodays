@@ -37,7 +37,7 @@ export default function Home() {
           </a>
         </header>
 
-        <ScrollArea className="h-[calc(92vh-11rem)] md:h-[calc(100vh-12rem)]">
+        <ScrollArea className="h-[calc(92vh-8rem)] md:h-[calc(100vh-10rem)]">
           <motion.div
             className="space-y-12  md:space-y-16"
             initial={{ opacity: 0 }} // Initial opacity for the list of posts
