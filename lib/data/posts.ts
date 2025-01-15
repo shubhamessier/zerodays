@@ -14,7 +14,7 @@ export const posts: BlogPost[] = [
       "Previously there have been moments of despair when I felt like leaving everything and returing back to normal, live normally. I know I have to keep my head straight and move forward, everyday. How long the path may seem, I need to keep my belief that it is worth walking a thousand miles for and it’s going to work out in the end. The only promise i made to myself is to work for it everyday, no leaves, whatever happens, happens. I have to show up ignoring what could stop me from doing so, be it demotivation, anxiety, stress, despair, hoplessness. I don’t care if my friends are earning a lot more than me or they are travelling around, enjoying their life, having the time of their lives. This is my karma, to work for what I want. I am gonna fix what’s wrong, I am going all the distance.",
       "Also I have to increase my highs and lows, If my high (goal) is easily achieveable then it’s not really something worth spending a lot of time to a lot of people would do that. If I can be happy and content in a easy way out then all of my work would never be the best. I can’t think of any other thing that is of great importance to me, also I decided to write once a month, to just maintain a good record of blogs to track my progress from my reference point, which is set to today.",
     ],
-    image: "https://i.ibb.co/6nG0g6L/PXL-20240827-233229577.jpg",
+    // image: "https://i.ibb.co/6nG0g6L/PXL-20240827-233229577.jpg",
   },
   {
     date: "2024-12-22T17:38",
