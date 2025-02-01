@@ -2,6 +2,18 @@ import { BlogPost } from "@/lib/types";
 
 export const posts: BlogPost[] = [
   {
+    date: "2025-02-01T20:47",
+    title: "Total Organisation",
+    content: [
+      "I’ve decided it’s the moment, I go full throttle to what I want, and yes I’ve decided to move out and get it, there’s no partime working, it’s full time now. I’ve no strings to attach to stay. To Get what I’ve set out for I may have to let some stuff go from my rucksack, I leave behind social conformity, I leave all my fears behind me, I leave all the bounds limiting me to be less than what I can be.  A one good friend is enough to sustain happiness, sadness and everything that comes in between. a higher number isn’t necessarily good, I’ve learnt this the hard way.",
+      "Everyone will be working when they’re supposed to, everyone will be working hard when the age comes, everyone will earn money when the wallets dry up. Is it really efficient to live this way? If I do these things when I’m supposed to I’m already late. But no, I refuse to walk down this path, I want to work hard now, take my steps now, see the world in all it’s colors now, not when I turn old and fraile. These days when I see my plan giving me the clarity I long wish for, I learn the need to be more disciplined, to be more invested, to be out there everyday. It is my Karma.",
+      "I don’t see a instant reward in analysing things as I do in my daily life, It takes me time to really understand the outcomes of my analysis, in the moment it’s unsignificant, over the time it adds up. I’ve tried multiple late night swot analysis, mapping my ideas, writing down my thoughts and what I feel about certain things. They begin to add up. I’ve realised my fear is recurring, “not trying enough”. The best counter action to that is “trying hard enough”. This is the small distance I try to cover everyday. All I really try and will be trying is to, “work everyday” regardless of my feelings/emotions/conditions and all external factors. ",
+      "It takes time to build something, months to ideate, maybe years to be great at something, and this is only possible when I’m alone and in touch with my inner self. Solitarity is the only companion in this, this is a choice now. Like all great people once did, I have to pick my own battles. It requires me to be focused, to be in a consistent good mental state, to be dedicated to my goal, to stop worrying about irrational fears, to improvise myself everyday. ",
+      "This is my total organisation, building everything, being better.",
+    ],
+    // image: "https://i.ibb.co/6nG0g6L/PXL-20240827-233229577.jpg",
+  },
+  {
     date: "2025-01-14T18:12",
     title: "Again, Again, Again",
     content: [
