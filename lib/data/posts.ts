@@ -2,6 +2,17 @@ import { BlogPost } from "@/lib/types";
 
 export const posts: BlogPost[] = [
   {
+    date: "2025-03-02T12:24",
+    title: "Afresh",
+    content: [
+      "A few years ago, sitting in a room by myself, thinking about what to do in my life? Where to get that meaning that was supposed to make life better, I never lived without a plan and this experience opened my life about how it is like to live without a plan. How scary it may get when you don't have a fallback and you're bare just like how you entered this world. I always have thought that having a plan was the sexiest thing I had, but when I got ripped off that, there was nothing no confidence, no future, no motivation, just void.",
+      "After that all I've been doing is to counter that, rebuild the life I once had, brick by brick like they say, from ground up. Building steel, laying concrete, everyday since then. Stopping all the external voices, inside my chamber of solitude and heat. I used to think someone would notice, but I'm glad nobody did, I myself did. I had to.",
+      "Last month on 14th Feburary I took 'That Flight', Left everything behind, moved to Banglore. Took the risk, without thinking of the consequeunces. now it doesn't seems like that big of a risk, but I can't explain how it was at that time. I don't really care if anyone really notices me or not, or someone cares about me or not, I've grown myself into doing that all by myself. Just like other people I know my limits, my failures. I don't accept to live with them but to challenge and get done with them once and for all. I don't want to live like before, being buried in the pressure of dreams and uncompleted tangled thoughts, I will clear all this, all the mess, all the tangled life. Whatever happens, I will see. Though a lot of time still goes into work, which it should, I am going to dedicate some time just to look inside, look outside. To live for no else, but for myself. To complete the dreams I had, to go through each one of them, to work my best for it, to learn from my despair and to not look back to it.",
+      "The moment has arrived, for killing the past and coming back to life.",
+    ],
+    image: "https://i.ibb.co/hJ5fThTn/20250217-163403.jpg",
+  },
+  {
     date: "2025-02-01T20:47",
     title: "Total Organisation",
     content: [
