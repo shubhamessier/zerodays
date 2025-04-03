@@ -2,6 +2,17 @@ import { BlogPost } from "@/lib/types";
 
 export const posts: BlogPost[] = [
   {
+    date: "2025-04-03T12:24",
+    title: "The wall is giving away.",
+    content: [
+      "This hit me recently only during my daily life, and it has impacted on how I think about my daily life, while most of my life I've been in one pursuit or another, I recently realised why I might've failed in those pursuits but one good thing still happened I failed early, I'm glad I failed early in life, because it was necessary for me to eat dust at that moment to later realise the importance of everything I've neglected. Everybody hates their mistakes/errors/weakness I only got relieved of those chains once I exposed them instead of hiding them within me, though I'm surrounded by a lot of people, I've came to realise the importance of solitude, to be focused, to channelise my inside, to be alone, to get out of my crippling earth bound problems and actually do something. The bigger I aspire or be ambitious, I have to put in all that work in hope for it to turn out into something I wanted. This is very clear that what I'm doing right now, though I am little content with it, but I know it isn't all enough, I'll have to put more, more time, more energy, to go all in.", 
+      "Even though I tried to be unique for my whole life, it was a mere act to make myself feel different, instead of actually doing something different. Being different came from those painful incremental updates I had to make to my daily life to actually see the difference while most of the time it feels I'm another hamster in this karma wheel. I see that, progress = (incremental painful updates + occasional big leaps)/time taken, *the more the incremental updates the lesser big leaps needed. this has seem to fit for my story, might not be for someone else, that's the thing nobody told, everyone's fix/poision is different, it isn't the same for everyone, the things that worked for masses never worked for me, the epilogue can be accurately summarised with a acronym, FAFO (fuck around and find out). The path to being different started through these normal mean streets then diverged after sometime that takes off onto different worlds altogether and I know if I had to start again over, this would be the way, work it off, until I get that escape velocity.",
+      "It's been a year since I left home for good, my every visit after I left was still a visit than stay, I have mixed feelings about it, but I'm confident about the choice I made, I don't regret any failures that came with it, they were a necessary part of the process. Above all I've learnt how to get my stuff together and move forward even though everything seemed blasting off, to be bold, to be right. I know it's either me doing it or someone else bolder than me, I chose to be that someone. I know things haven't all got right yet, but I'm atleast duct-taping/fixing this mess and I'll put some trust into this plan working out, if it doesn't I'll start over again, cause I know for sure there's no way around, only way around is through. I've always beated my head against the wall but I can atleast say,",
+      "I am beating my head against the wall, but the wall is giving away."
+    ],
+    image: "",
+  },
+  {
     date: "2025-03-02T12:24",
     title: "Afresh",
     content: [
